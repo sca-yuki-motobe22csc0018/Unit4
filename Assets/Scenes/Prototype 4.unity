@@ -251,8 +251,8 @@ MonoBehaviour:
   speed: 1
   hasPowerup: 0
   nomalpowerupStrength: 0
-  powerupStrength: 20
-  wait: 5
+  powerupStrength: 15
+  wait: 8
   powerupIndicator: {fileID: 1192968965}
 --- !u!1001 &245963551
 PrefabInstance:
@@ -409,6 +409,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1742899641471652, guid: 923deea38dc6a8843b15db7638919c1e, type: 3}
   m_PrefabInstance: {fileID: 1136346167}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1192968969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192968965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1fbc74d6b4e5b45b6e1256f8e72260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1211016355
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,10 +743,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1432330874}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62b1fe223b555a0428ecac95c04fd33d, type: 3}
+  m_Script: {fileID: 11500000, guid: b751e3042085b45479badd91bc7255ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1186530199728662471, guid: dcaca8caff102b04e8210a987434feca, type: 3}
+  ItemPrefab: {fileID: 1186530199728662471, guid: dcaca8caff102b04e8210a987434feca, type: 3}
 --- !u!1 &1643912880
 GameObject:
   m_ObjectHideFlags: 0
