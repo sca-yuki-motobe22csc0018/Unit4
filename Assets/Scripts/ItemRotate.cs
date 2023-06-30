@@ -14,5 +14,13 @@ public class ItemRotate : MonoBehaviour
     void Update()
     {
         transform.Rotate(new Vector3(0,0.1f,0));
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(new Vector3(0, 0.15f, 0));
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Rotate(new Vector3(0, 0.05f, 0));
+        }
     }
 }
